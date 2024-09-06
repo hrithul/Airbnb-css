@@ -1,9 +1,12 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    margin: -1px;
+}
 .main{
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 1.3%;
-    color: rgba(19, 19, 19, 0.851);
-    font-family: "Nunito Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.884);
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
@@ -40,6 +43,7 @@
     border-color: lightgray;
 }
 .tab{
+    width: max-content;
     margin-top: 30px;
     margin: 30px 240px 20px 240px;
     padding: 10px;
@@ -85,10 +89,10 @@
     color: #00000050;
 }
 .search{
-    background-color: #ff5a5f;
-    border: none;
-    border-radius: 30px;
-    padding: 15px 18px;
+    background-color:#FF385C;
+    border-radius: 300px;
+    padding: 15px 16.5px;
+    margin-left: auto;
 }
 
 .content{
@@ -189,4 +193,40 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+.foot-main{
+    background-color: #e9e9e9;
+    margin:-1px;
+    margin-top: 20px;
+    padding-left:3%;
+    padding-right: 3%;
+    padding-top: 40px;
+}
+.foot{
+    display: flex;
+    justify-content: flex-start;
+}
+.support, .hosting, .airbnb{
+    margin-right: 200px;
+}
+ul{
+    list-style-type: none;
+    line-height: 35px;
+}
+.foot-hd{
+    font-weight: 500;
+    color: #232323;
+}
+.foot-txt{
+    font-weight: 400;
+    color: #494848;
+    
+}
+.copy{
+    margin: 12px 3%;
+    word-spacing: 20px;
+}
+.footright{
+    display: inline;
+    margin-left: 275px;
 }
